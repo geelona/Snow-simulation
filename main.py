@@ -30,7 +30,6 @@ def draw():
 
 
 def main():
-    global count
     while 1:
         for e in pygame.event.get():
             if e.type == pygame.KEYDOWN:
